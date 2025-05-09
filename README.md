@@ -17,31 +17,31 @@ Key features:
 ## Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/hydrological-forecasting-gnn.git
-   cd hydrological-forecasting-gnn
-   ```
+```bash
+git clone https://github.com/yourusername/hydrological-forecasting-gnn.git
+cd hydrological-forecasting-gnn
+```
 2. Create and activate a virtual environment (recommended):
-  ```bash
-  python -m venv venv
-  source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 3. Install dependecies:
-  ```bash
-  pip install -r requirements.txt
-   ```
+```bash
+pip install -r requirements.txt
+```
 
 ## Usage
 
 1. Prepare your data:
-  Place your Excel data file in the root directory
-  Modify m_stations and q_stations lists in main_training.py with your station names
-  Update the file path and date parameters in main_training.py
+  - Place your Excel data file in the root directory
+  - Modify m_stations and q_stations lists in main_training.py with your station names
+  - Update the file path and date parameters in main_training.py
 2. Run the training:
-  ```bash
-  python main_training.py
+```bash
+python main_training.py
 ```   
 3. Outputs
-  Model weights saved as best_model.pth
-  Visualizations can be saved also, edit test function
-  Performance metrics can be saved, edit test function
+  - Model weights saved as best_model.pth
+  - Visualizations can be saved also, edit test function
+  - Performance metrics can be saved, edit test function

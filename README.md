@@ -20,13 +20,16 @@ Key features:
    ```bash
    git clone https://github.com/yourusername/hydrological-forecasting-gnn.git
    cd hydrological-forecasting-gnn
+   ```
 2. Create and activate a virtual environment (recommended):
   ```bash
   python -m venv venv
   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
 3. Install dependecies:
   ```bash
   pip install -r requirements.txt
+   ```
 
 ## Usage
 
@@ -37,6 +40,7 @@ Key features:
 2. Run the training:
   ```bash
   python main_training.py
+```   
 3. Outputs
   Model weights saved as best_model.pth
   Visualizations can be saved also, edit test function
